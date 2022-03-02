@@ -1,15 +1,18 @@
 import Head from "next/head";
 import Image from "next/image";
+import Featured from "../components/Featured";
 
 export default function Home() {
   return (
     <div>
       <Head>
-        <title>Chi Thinu Pizza World</title>
-        <meta name="description" content="Dine into Chi Thinu" />
+        <title>Chinku's Pizza World</title>
+        <meta name="description" content="Dine into Chinku" />
         <link rel="icon" href="pizza.ico" />
       </Head>
-      best class pizza
+      <div>
+        <Featured />
+      </div>
     </div>
   );
 }
