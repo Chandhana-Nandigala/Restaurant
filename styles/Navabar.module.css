@@ -33,7 +33,7 @@
 }
 .texts {
   margin-left: 20px;
-  color: white;
+  color: #F7F5F2;
 }
 
 .text:first-child {
@@ -75,7 +75,7 @@
   width: 20px;
   height: 20px;
   border-radius: 50px;
-  background-color: white;
+  background-color: #F7F5F2;
   color: #5d16eb;
   display: flex;
   align-items: center;

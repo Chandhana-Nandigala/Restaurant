@@ -21,13 +21,13 @@ const Featured = () => {
   };
   return (
     <div className={styles.Container}>
-      <div
+      {/* <div
         className={styles.arrowContainer}
         style={{ left: 0 }}
         onClick={() => handleArrow("l")}
       >
         <Image src="/assets/arrowl.png" alt="left" layout="fill" />
-      </div>
+      </div> */}
       <div
         className={styles.wrapper}
         // style={{ transform: `translateX(${-100 * index}vw)` }}
@@ -38,13 +38,13 @@ const Featured = () => {
           </div>
         ))}
       </div>
-      <div
+      {/* <div
         className={styles.arrowContainer}
         style={{ right: 0 }}
         onClick={() => handleArrow("r")}
       >
         <Image src="/assets/arrowr.png" alt="right" layout="fill" />
-      </div>
+      </div> */}
     </div>
   );
 };
