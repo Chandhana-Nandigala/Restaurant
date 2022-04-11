@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Head from "next/head";
 import styles from "../../styles/Product.module.css";
 import React from "react";
 
@@ -13,6 +14,11 @@ const Product = () => {
   };
   return (
     <div className={styles.container}>
+      <Head>
+        <title>Chinku's Pizza World</title>
+        <meta name="description" content="Dine into Chinku" />
+        <link rel="icon" href="pizza.ico" />
+      </Head>
       <div className={styles.left}>
         <div className={styles.imgContainer}>
           <Image
